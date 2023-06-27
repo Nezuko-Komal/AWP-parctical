@@ -70,12 +70,12 @@ namespace ConsoleApp3
 
             //Console.WriteLine(Math.Pow(2, 3));
 
-            Console.WriteLine(Math.Round(-43.12));
-            Console.WriteLine(Math.Round(-43.54));
+            //Console.WriteLine(Math.Round(-43.12));
+            //Console.WriteLine(Math.Round(-43.54));
 
-            Console.WriteLine(Math.Ceiling(12.54));
+            //Console.WriteLine(Math.Ceiling(12.54));
 
-            Console.WriteLine(Math.Floor(65.98));
+            //Console.WriteLine(Math.Floor(65.98));
         }
     }
 }
