@@ -76,6 +76,17 @@ namespace ConsoleApp3
             //Console.WriteLine(Math.Ceiling(12.54));
 
             //Console.WriteLine(Math.Floor(65.98));
+
+            //ARRAY FUNCTION
+            int[] p = new int[4] { 12, 32, 44, 55 };
+            int[] c1 = new int[p.Length];
+
+            Array.Copy(p, c1, 3);
+
+            foreach(int i in c1)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
